@@ -1,0 +1,92 @@
+EXPERIMENT-1
+
+AIM : Study of Network devices in detail and connect the computers in Local Area Network.
+Apparatus(Software): No software or hardware needed.
+
+Procedure: following should be done to understand this practical.
+
+1.	Repeater: Functioning at Physical Layer. A repeater is an electronic device that receives a  signal and retransmits it at a higher level and/or higher power, or onto the other side of an obstruction, so that the signal can cover longer distances. Repeater have two ports, so can not be use to connect for more than two devices.
+
+
+2.	Hub: An Ethernet hub, active hub, network hub, repeater hub, hubor concentrator is a device for connecting multiple twisted pair or fiber optic Ethernet devices together and making them act as a single network segment. Hubs work at the physical layer (layer 1) of the OSI model. The device is a form of multiport repeater. Repeater hubs also participate in collision detection, forwarding a jam signal to all ports if it detects a collision.
+
+
+
+3.	Switch: A network switch or switching hub is a computer networking device that connects network segments. The term commonly refers to a network bridge that processes and routes data at the data link layer (layer 2) of the OSI model.Switches that additionally process data at the network layer(layer3andabove)are often referred to as Layer 3switches or multi layer switches.     
+                                                                    Switch
+
+
+
+4.	Bridge: A network bridge connects multiple network segments at the data link layer (Layer 2) of the OSI model. In Ethernet networks, the term bridge formally means a device that behaves according to the IEEE 802.1D standard. A bridge and switch are very much alike; a switch being a bridge with numerous ports. Switch or Layer2 switch is often used interchangeably with bridge. Bridges can analyze incoming data packets to determine if the bridge is able to send the given packet to another segment of the network.
+
+
+5.	Router: A router is an electronic device that interconnects two or more computer networks, and selectively interchanges packets of data between them. Each data packet contains address information that a router can use to determine if the source and destination are on the same network, or if the data packet must be transferred from one network to another. Where multiple routers are used in a large collection of interconnected networks, the routers exchange information about target system addresses, so that each router can build up a table showing the preferred paths between any two systems on the interconnected networks.
+
+
+
+6. Gate Way: In a communications network, a network node equipped for interfacing with  
+     another network that uses different protocols.
+a.	A gateway may contain devices such as protocol translators, impedance matching devices, rate converters, fault isolators, or signal translators as necessary to provide system interoperability. It also requires the establishment of mutually acceptable administrative procedures between both networks.
+
+
+
+
+
+
+
+ 
+
+
+b.	A protocol translation/ mapping gateway interconnects networks with different network protocol technologies by performing the required protocol conversions.
+
+
+c.	Aim: Connect the computers in Local Area Network.
+Procedure: On the host computer
+               On the host computer, follow these steps to share the Internet connection:
+
+
+1.	Log on to the host computer as Administrator or as Owner.
+2.	Click Start, and then click Control Panel.
+3.	Click Network and Internet Connections.
+4.	Click Network Connections.
+5.	Right-click the connection that you use to connect to the Internet. For example, if you connect to the Internet by using a modem, right-click the connection that you want under Dial-up / other network available.
+6.	Click Properties.
+7.	Click the Advanced tab.
+8.	Under Internet Connection Sharing, select the Allow other network users to connect through this computer's Internet connection checkbox.
+9.	If you are sharing a dial-up Internet connection, select the Establish a dial- up connection whenever a computer on my network attempts to access the Internet check box if you want to permit your computer to automatically connect to the Internet.
+10.	Click OK. You receive the following message:
+
+
+
+When Internet Connection Sharing is enabled, your LAN adapter will be set to use IP address 192.168.0.1. Your computer may lose connectivity with other computers on your network. If these other computers have static IP addresses, it is a good idea to set them to obtain their IP addresses automatically. Are you sure you want to enable Internet Connection Sharing?
+Click Yes.
+The connection to the Internet is shared to other computers on the local area network(LAN).
+The network adapter that is connected to the LAN is configured with a static IP addressof192.168.0.1and a subnet maskof255.255.255.0 On the client computer to connect to the Internet by using the shared connection, you must confirm the   LAN adapter IP configuration, and then configure the client computer. 
+      
+      To confirm the LAN adapter IP configuration, follow these steps:
+ 
+1.	Log on to the client computer as Administrator or as Owner.
+2.	Click Start, and then click Control Panel.
+3.	Click Network and Internet Connections.
+4.	Click Network Connections.
+5.	Right-click Local Area Connection and then click Properties.
+6.	Click the General tab, click Internet Protocol (TCP/IP) in the
+Connection uses the following items list, and then click Properties.
+7.	In the Internet Protocol (TCP/IP) Properties dialog box, click Obtain an IP address automatically(if it is not already selected),and then click OK.
+Note: You can also assign a unique static IP address in the range of 192.168.0.2 to192.168.0.254. For example, you can assign the following static IP address, subnet mask, and default gateway:
+8.	IPAddress192.168.31.202
+9.	Subnet mask255.255.255.0
+10.	Default gateway192.168.31.1
+11.	In the Local Area Connection Properties dialog box, click OK.
+12.	Quit Control Panel
+
+Ping Output:					
+
+Trace out Output:
+
+	 
+
+
+
+Result: the study achieved its objective of understanding and practically implementing a LAN using standard networking components.
+
